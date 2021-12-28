@@ -1,0 +1,10 @@
+
+
+.header-container {
+
+    /* Box Model */
+    padding: 10px;
+
+    box-sizing: border-box;
+    background-color: purple;
+}
