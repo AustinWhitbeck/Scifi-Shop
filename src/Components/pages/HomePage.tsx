@@ -1,5 +1,6 @@
-import Header from "../UI/organisms/Header";
-import ProductsContainer1 from "../UI/organisms/ProductsContainer1";
+
+import Header from "../UI/organisms/Header/Header";
+import ProductsContainer1 from "../UI/organisms/ProductsContainer1/ProductsContainer1";
 
 
 const HomePage = () => {

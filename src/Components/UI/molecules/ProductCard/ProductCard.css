@@ -1,0 +1,15 @@
+.product-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Box Model */
+    width: 80%;
+    height: 150px;
+
+    /* Border */
+    border-width: 2px;
+    border-color: black;
+
+    background-color: blue;
+}

@@ -1,4 +1,5 @@
-import Header from "../UI/organisms/Header";
+import Header from "../UI/organisms/Header/Header";
+
 
 
 const CartPage = () => {

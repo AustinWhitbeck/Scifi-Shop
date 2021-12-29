@@ -1,6 +1,7 @@
-import Title from "../atoms/Title";
-import NavBar from "../molecules/NavBar";
 
+
+import Title from '../../atoms/Title';
+import NavBar from '../../molecules/NavBar';
 import './Header.css';
 
 

@@ -4,7 +4,11 @@
 
     /* Box Model */
     padding: 10px;
+    width: 100%;
 
     box-sizing: border-box;
     background-color: purple;
+
+    /* Position */
+    position: fixed;
 }
