@@ -4,12 +4,15 @@
     align-items: center;
 
     /* Box Model */
+    margin: 5px 0px;
     width: 80%;
-    height: 150px;
+    height: 300px;
 
     /* Border */
-    border-width: 2px;
-    border-color: black;
+    border-width: 10px 5px 0 5px;
+    border-color: teal;
+    border-style: solid;
+    border-radius: 10px;
 
     background-color: blue;
 }
