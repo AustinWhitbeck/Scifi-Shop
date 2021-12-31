@@ -3,7 +3,7 @@ import { Cart, Item } from "../../Models/Models";
 
 
 const defaultCart: Cart = {
-    cart: []
+    cart: [],
 }
 
 export const ProfilesContext = React.createContext(defaultCart);

@@ -1,4 +1,5 @@
 
+import './ItemImage.css';
 interface Props {
     image?: string
 }
@@ -6,10 +7,7 @@ interface Props {
 
 const ItemImage = ({image}: Props) => {
     return (
-        <div>
-            <p>Test Image</p>
-            <img src={image} alt={`this item is a ${image}`} />
-        </div>
+        <img className="item-image"src={image} alt={`this item is a ${image}`} />
     )
 }
 

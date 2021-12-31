@@ -5,9 +5,7 @@ interface Props {
 
 const ItemDescription = ({text}: Props) => {
     return (
-        <div>
-            <p>Test Text{text}</p>
-        </div>
+            <p>{text}</p>
     )
 }
 

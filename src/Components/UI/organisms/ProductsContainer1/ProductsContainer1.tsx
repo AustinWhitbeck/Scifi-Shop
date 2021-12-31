@@ -9,19 +9,23 @@ const ProductsContainer1 = () => {
 
     const { masterItemsList } = useContext(MasterItemsContext);
 
+    console.log(masterItemsList);
+    console.log(MasterItemsContext);
     return (
         <section className="products-container flex-column">
 
-            {/* {masterItemsList?.map((item, index) => 
+            {masterItemsList?.map((item, index) => 
                 <ProductCard
-                    key={`${item.itemId}`}
+                    key={`${item.itemId}-${index}`}
                     name={`${item.name}`}
                     image={`${item.image}`}
                     // price={`${item.price}`}
+                    price={1}
                     description={`${item.description}`}
+                    itemId={`${item.itemId}`}
                 />
             
-            )} */}
+            )}
 
 
 {/* name: string,
@@ -31,7 +35,7 @@ const ProductsContainer1 = () => {
     itemId: string */}
 
 
-            <ProductCard 
+            {/* <ProductCard 
                 image="sample image"
                 description="sample description 1"
             />
@@ -62,7 +66,7 @@ const ProductsContainer1 = () => {
             <ProductCard 
                 image="sample image 2"
                 description="sample description 2"
-            />
+            /> */}
         </section>
     )
 }

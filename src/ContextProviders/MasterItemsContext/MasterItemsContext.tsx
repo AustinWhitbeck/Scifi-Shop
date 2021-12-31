@@ -15,12 +15,12 @@ const defaultMasterItems: MasterList  = {
 
 export const MasterItemsContext = React.createContext(defaultMasterItems);
 
-export const CartContextProvider = ({children}: {children: ReactNode}) => {
+export const MasterItemsContextProvider = ({children}: {children: ReactNode}) => {
 
 
-    // *** THIS IS IT AS A STATE INSTEAD OF JUST AN OBJECT *** //
+    // *** THIS IS IT AS A STATE INSTEAD OF JUST AN OBJECT *** ///
 
-    // const [masterItemsList, setmasterItemsList] = useState<Item[]>([
+    // const [ masterItemsList, setmasterItemsList ] = useState<Item[]>([
 
     //     {
     //     name: "Test One",
@@ -30,6 +30,8 @@ export const CartContextProvider = ({children}: {children: ReactNode}) => {
     //     itemId: "001"
     //     }
     // ]);
+
+    // *** THIS IS THE CONTEXT AS AN OBJECT *** ///
 
     const masterItemsList: Item[] = [
         {
@@ -45,7 +47,35 @@ export const CartContextProvider = ({children}: {children: ReactNode}) => {
             price: 12,
             description: "This is a great item to purchase",
             itemId: "002"
-        }
+        },
+        {
+            name: "Test One",
+            image: sword1,
+            price: 10,
+            description: "This is a great item to purchase",
+            itemId: "001"
+        },
+        {
+            name: "Test One",
+            image: sword1,
+            price: 10,
+            description: "This is a great item to purchase",
+            itemId: "001"
+        },
+        {
+            name: "Test One",
+            image: sword1,
+            price: 10,
+            description: "This is a great item to purchase",
+            itemId: "001"
+        },
+        {
+            name: "Test One",
+            image: sword1,
+            price: 10,
+            description: "This is a great item to purchase",
+            itemId: "001"
+        },
 
     ]
 
