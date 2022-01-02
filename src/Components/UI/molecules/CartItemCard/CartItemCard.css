@@ -1,0 +1,8 @@
+
+
+.cart-item-card-container {
+    display: flex;
+    flex-direction: row;
+
+    background-color: red;
+}

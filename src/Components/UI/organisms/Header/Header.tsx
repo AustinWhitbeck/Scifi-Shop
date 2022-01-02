@@ -9,7 +9,9 @@ const Header = () => {
 
     return(
         <header className="header-container flex-row">
-            <Title/>
+            <Title
+                text="SciFi Store"
+            />
             <NavBar/>
         </header>
     )

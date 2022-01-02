@@ -1,10 +1,14 @@
 import React from 'react'
 
-const Title = () => {
+interface Props {
+    text: string,
+}
+
+const Title = ({ text}: Props) => {
 
     return (
         <div>
-            <h1>SciFi Store</h1>
+            <h1>{text}</h1>
         </div>
     )
 }

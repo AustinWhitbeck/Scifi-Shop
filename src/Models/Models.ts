@@ -9,7 +9,8 @@ export interface Item {
 }
 
 export interface Cart {
-    cart: Item[] | undefined
+    cart: Item[] | undefined,
+    addItem: (item: Item) => void
 }
 
 export interface MasterList {

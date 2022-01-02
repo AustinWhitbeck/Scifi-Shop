@@ -26,47 +26,6 @@ const ProductsContainer1 = () => {
                 />
             
             )}
-
-
-{/* name: string,
-    image: string,
-    price: number,
-    description: string,
-    itemId: string */}
-
-
-            {/* <ProductCard 
-                image="sample image"
-                description="sample description 1"
-            />
-            <ProductCard 
-                image="sample image 2"
-                description="sample description 2"
-            />
-            <ProductCard 
-                image="sample image"
-                description="sample description 1"
-            />
-            <ProductCard 
-                image="sample image 2"
-                description="sample description 2"
-            />
-            <ProductCard 
-                image="sample image"
-                description="sample description 1"
-            />
-            <ProductCard 
-                image="sample image 2"
-                description="sample description 2"
-            />
-            <ProductCard 
-                image="sample image"
-                description="sample description 1"
-            />
-            <ProductCard 
-                image="sample image 2"
-                description="sample description 2"
-            /> */}
         </section>
     )
 }
