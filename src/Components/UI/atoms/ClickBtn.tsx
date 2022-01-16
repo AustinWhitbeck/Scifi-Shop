@@ -1,4 +1,6 @@
 
+import Button from '@mui/material/Button';
+
 interface Props {
     click: () => void,
     text: string
@@ -8,9 +10,9 @@ interface Props {
 const ClickBtn = ({click, text}: Props) => {
 
     return(
-        <button onClick={click}>
+        <Button variant='contained' onClick={click} >
             {text}
-        </button>
+        </Button>
     )
 }
 

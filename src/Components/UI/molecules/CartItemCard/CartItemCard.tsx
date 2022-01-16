@@ -3,6 +3,7 @@ import ItemDescription from "../../atoms/ItemAtoms/ItemDescription"
 import ItemImage from "../../atoms/ItemAtoms/ItemImage"
 import ItemName from "../../atoms/ItemAtoms/ItemName";
 import ItemPrice from "../../atoms/ItemAtoms/ItemPrice";
+import Card from '@mui/material/Card';
 
 // CSS //
 import './CartItemCard.css';
@@ -37,7 +38,7 @@ const ProductCard = ({name, image, price, description, itemId}: Props) => {
     }
 
     return (
-        <main className="cart-item-card-container flex-column">
+        <Card >
             <section>
                 <ItemName
                     name={name}
@@ -54,7 +55,7 @@ const ProductCard = ({name, image, price, description, itemId}: Props) => {
                     text={description}                
                 />
             </section>
-        </main>
+        </Card>
     )
 }
 

@@ -1,3 +1,4 @@
+import { Container } from '@mui/material';
 import { useContext } from 'react';
 import { MasterItemsContext } from '../../../../ContextProviders/MasterItemsContext/MasterItemsContext';
 import ProductCard from '../../molecules/ProductCard/ProductCard'
@@ -12,7 +13,7 @@ const ProductsContainer1 = () => {
     console.log(masterItemsList);
     console.log(MasterItemsContext);
     return (
-        <section className="products-container flex-column">
+        <Container maxWidth="sm" >
 
             {masterItemsList?.map((item, index) => 
                 <ProductCard
@@ -26,7 +27,7 @@ const ProductsContainer1 = () => {
                 />
             
             )}
-        </section>
+        </Container>
     )
 }
 
